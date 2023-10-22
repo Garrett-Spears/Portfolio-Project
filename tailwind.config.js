@@ -7,7 +7,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        "primary": "#28202F",
+        "primary-purple": "#28202F",
+        "secondary-purple": "#82509AB2",
+        "secondary-purple-hover": "#675B82"
+      },
+      fontFamily: {
+        'sans': ['roboto'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
     },
   },
