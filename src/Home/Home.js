@@ -1,8 +1,8 @@
 function Home() {
     return (
-      <div class= "w-screen h-screen bg-green-700">
-        <h1 class="text-white">At Home Page</h1>
-      </div>
+      <section id="home" className= "w-screen h-[2000px] bg-green-700">
+        <h1 className="text-white">At Home Page</h1>
+      </section>
     );
 }
 
