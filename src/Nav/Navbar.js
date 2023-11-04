@@ -1,8 +1,7 @@
 import NavButton from './NavButton';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 function Navbar() {
-
     // Adding scroll margin to top of all sections so that navbar doesn't cover each section
     // when scrolled to.
     useEffect(() => {
