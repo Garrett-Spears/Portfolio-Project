@@ -20,6 +20,10 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'roboto-slab': ['Roboto Slab', 'serif'],
       },
+      stroke: {
+        "purple": "#82509A",
+        "purple-hover": "#675B82",
+      }
     },
   },
   plugins: [],
