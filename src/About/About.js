@@ -3,7 +3,7 @@ import LinePageHeader from "../PageHeaders/LinePageHeader";
 function About() {
     return (
         <section id="about">
-          <LinePageHeader reverseDirection={false} headerText="About Me" />
+          <LinePageHeader headerText="About Me" />
         </section>
       );
 }
