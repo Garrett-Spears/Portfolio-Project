@@ -19,7 +19,7 @@ function SkillTile(props) {
     }, [props.iconName]);
 
     return(
-        <div>
+        <div className="flex">
             <img src={icon} alt={`${props.skillName} Icon`} />
             <p>{props.skillName}</p>
         </div>

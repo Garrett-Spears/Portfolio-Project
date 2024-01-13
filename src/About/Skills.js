@@ -6,9 +6,9 @@ function Skills() {
     ]
 
     return(
-        <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {skills.map(([skillName, iconName]) => (
-                <SkillTile skillName={skillName} iconName={iconName} />
+                <SkillTile key={skillName} skillName={skillName} iconName={iconName} />
             ))}
         </div>
     );
