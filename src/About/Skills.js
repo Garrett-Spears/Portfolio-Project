@@ -1,9 +1,15 @@
 import SkillTile from "./SkillTile";
 
 function Skills() {
+    const skills = [
+        ["Java", "java.svg"], ["C", "c.svg"]
+    ]
+
     return(
         <div>
-            <SkillTile skillName="Java" iconName="java.svg" />
+            {skills.map(([skillName, iconName]) => (
+                <SkillTile skillName={skillName} iconName={iconName} />
+            ))}
         </div>
     );
 }
