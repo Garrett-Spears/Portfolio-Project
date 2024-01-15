@@ -11,7 +11,7 @@ function SkillTile(props) {
                 setIcon(importedIcon.default);
             } 
             catch (error) {
-                console.error('Error loading skill icon:', error);
+                console.error("Error loading skill icon: ", error);
             }
         };
 
@@ -19,9 +19,9 @@ function SkillTile(props) {
     }, [props.iconName]);
 
     return(
-        <div className="flex">
+        <div className="inline-flex h-16 w-48 items-center justify-center bg-white-with-pink-tint rounded-lg px-4 py-1">
             <img src={icon} alt={`${props.skillName} Icon`} />
-            <p>{props.skillName}</p>
+            <p className="text-off-black font-bold text-3xl pl-3 leading-7">{props.skillName}</p>
         </div>
     );
 }
