@@ -1,4 +1,4 @@
-// Pass reverseDirection in props to rverse the order of the page header
+// Pass reverseDirection in props to reverse the order of the page header
 function LinePageHeader(props) {
     return (
         <div className={`w-5/6 flex ${props.reverseDirection ? 'flex-row-reverse' : 'flex-row'} items-center mx-auto mt-10 gap-x-10`}>
